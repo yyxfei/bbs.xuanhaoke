@@ -1,0 +1,80 @@
+/* ----------------------------------
+
+extend_common.css  file for Discuz! X3.0
+
+【未来科技】 
+http://www.veikei.com
+专注于 Discuz模板开发设计等服务。
+详情请 查看 www.veikei.com
+或咨询 客服 QQ 1508085698 1595675868
+
+Author: Veikei
+Created Time: 2012-09-05
+Modified Time: 2012-09-10
+Update Time: 2013-10-30
+
+---------------------------------- */
+
+
+
+
+/*************************************************************************
+* 
+* 公共属性
+*
+**************************************************************************/
+body, input, button, select, textarea { font: {FONTSIZE}{FONT};color: {TABLETEXT};
+font-family:"Microsoft yahei", "微软雅黑", Arial, Helvetica, sans-serif, "宋体";}
+
+
+body { background:#fff  url({STYLEIMGDIR}/bg_body.png) repeat-x center top; }
+a { outline: none; }
+
+
+a:active { star:expression(this.onFocus=this.blur());}
+a:hover { color:#f60; text-decoration:none; }
+:focus { outline:0; }
+img, fieldset { border:0; }
+ol, ul, menu { list-style:none; }
+td, th, div { word-break:break-all; word-wrap:break-word }
+* { outline:none }
+
+
+/*******************/
+#toptb  { height:35px; line-height:25px; border:none;  background: url({STYLEIMGDIR}/bg_toptb.png) repeat-x center top; }
+#toptb, #toptb a { color:#333; }
+
+/*
+#hd .wp { margin: 0 auto; width:960px; clear:both; }
+
+.vk_wp { margin: 0 auto; margin-bottom:15px; width:960px; clear:both; background:#fff; -moz-border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px; border-radius:0 0 5px 5px; }
+*/
+#pt { margin-top:0px !important; }
+
+
+/*******************/
+
+/*.wp { margin: 0 auto; width:960px; clear:both; }
+*/
+#wp .wp { width: auto; }
+#um .avt img { box-shadow:0px 1px 3px #eee; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; padding: 2px; width: 48px; height: 48px; background: #fff; border:1px solid #fff; }
+
+#nv { height: 50px; line-height:50px;   background: url({STYLEIMGDIR}/nv.gif) no-repeat; }
+#nv ul { height: 50px; overflow: hidden; }
+#nv li { float: left; height: 50px; font-weight:normal; font-size: 14px; background: none; background: none /*url({STYLEIMGDIR}/nv_li.png) no-repeat 100% 0 */; }
+.ie_all #nv li { line-height: 50px; }
+.ie6 #nv li { line-height: 50px; }
+#nv li a { float: left; padding:0 20px; text-align:center; width: auto; height: 50px; display:block; line-height: 50px; color: #fff; font-size:16px; background: none; }
+#nv li span { display: none; }
+#nv li.a { margin-left:0px; background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+#nv li a:hover { color:#fff; text-decoration:none; background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+#nv li.hover a:hover, #nv li.hover a { color:#fff; background: url({STYLEIMGDIR}/nv_a.gif) repeat-x; }
+#qmenu { margin-top:10px; }
+
+.ct2_a, .ct3_a { background-color:#fff; }
+
+
+/* color redefine  */
+/*
+#nv li a ,#nv li.a , #nv li a:hover, #nv li.hover a:hover, #nv li.hover a {  color: #333;  }
+*/

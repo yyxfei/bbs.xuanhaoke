@@ -1,0 +1,45 @@
+/*
+[name]科技蓝[/name]
+[iconbgcolor]#168[/iconbgcolor]
+未来科技 设计
+www.veikei.com
+*/
+
+.ft_wp { background:#fff url(bg_ft.png) top center repeat-x;}
+
+border_top_1 { border-top:none;}
+
+/* search */
+			#scbar_logo_r { background: url(search_logo_r.gif) no-repeat 0 0; }
+				.scbar_btn_td { background: url(search_logo_r.gif) no-repeat  -450px 0;  }
+
+
+/* nv*/
+			#nv { background: url(nv.gif);   } 
+			#nv ul{ background: url(nv.gif);   } 
+
+/*				#nv li { background: url(nv_li.gif) no-repeat 100%  0; }
+*/
+					#nv li a { color: #fff;  } 
+					#nv li.a { color:#fff; background: url(nv_a.gif) ; } 
+						#nv li.a a { color:#fff; background: url(nv_a.gif) ; } 
+						#nv li a:hover { color:#fff;  background: url(nv_a.gif);  } 
+						#nv li.hover a:hover, #nv li.hover a { color:#fff;  background: url(nv_a.gif) ; } 
+
+						
+/* portal title */
+
+.col_inner h2 { background:url(bg_vk_title_h2_inner.gif) no-repeat; }
+/*	.col h2 a { color:#333; }
+		.col h2 span a { color:#333; }
+*/
+
+/* sidebar  */
+.vk_simple_cat li a { background:#168; color:#fff;  }
+.vk_simple_cat li a:hover { background:#f93;  }
+
+
+
+
+.vk_newspecial {  background: url(vk_pn_post.png) no-repeat 0 0;}
+
